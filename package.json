@@ -1,0 +1,33 @@
+{
+  "name": "utils-unt",
+  "version": "1.0.0",
+  "description": "Funciones y más para Incuba UNT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/devcodela/utils-unt.git"
+  },
+  "author": "Julio Giampiere Grados Caballero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/devcodela/utils-unt/issues"
+  },
+  "homepage": "https://bitbucket.org/devcodela/utils-unt#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "chalk": "^3.0.0",
+    "config": "https://JulioGrados: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@github.com/JulioGrados/configunt.git",
+    "crypto-js": "^4.2.0",
+    "download": "^7.1.0",
+    "js-cookie": "^2.2.1",
+    "moment": "^2.29.3",
+    "url": "^0.11.3"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1"
+  }
+}
