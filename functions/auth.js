@@ -17,7 +17,7 @@ const generateHash = password => {
 
 const isLoggedUser = async ctx => {
   if (!ctx.jwt) {
-    redirect({ ctx, location: '/login' })
+    redirect({ ctx, location: '/iniciar-sesion' })
     return null
   }
 
@@ -30,7 +30,7 @@ const isLoggedRole = async ctx => {
   if (rol === 'administrador') {
     return { jwt: ctx.jwt }
   } else {
-    redirect({ ctx, location: '/login' })
+    redirect({ ctx, location: '/iniciar-sesion' })
     return null
   }
 }
